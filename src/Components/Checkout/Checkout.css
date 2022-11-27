@@ -1,0 +1,110 @@
+.checkoutItems {
+    margin: 100px 0;
+}
+
+.checkoutItems .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkoutItems .row .col .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.checkoutItems .row .col .formGroup label {
+    letter-spacing: 1.2px;
+}
+
+.checkoutItems .row .col .formGroup input {
+    height: 30px;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #001e28;
+    width: 300px;
+}
+
+.checkoutItems .row .col .formGroup .checkout {
+    float: right;
+    border: 1px solid #001e28;
+    background-color: #001e28;
+    color: #ffffff;
+    padding: 5px 15px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.checkoutItems .row .col .formGroup .checkout:hover {
+    background-color: #ffffff;
+    color: #001e28;
+}
+
+.checkoutItems .totalCart {
+    box-shadow: 0 0 4px #001e28;
+    padding: 15px 5px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.checkoutItems .totalCart h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.checkoutItems .totalCart h2 span {
+    background-color: #001e28;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.checkoutItems .totalCart .totalInfo .totalContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkoutItems .totalCart .totalInfo .totalContent span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.checkoutItems .totalCart .total {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between
+}
+
+.checkoutItems .totalCart .total p {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.checkoutItems .totalCart .total span {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .checkoutItems .row {
+        flex-direction: column;
+    }
+
+    .checkoutItems .row .col {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
